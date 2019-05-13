@@ -29,3 +29,18 @@ function porcentajeAlumnos(totalHombres, totalMujeres){
 };
 
 porcentajeAlumnos(14,5);
+
+//Valor real es true:
+console.log("valor boleano de \"Fictizia\":", Boolean("Fictizia")  );
+console.log("valor boleano de 1235:", Boolean(1235));
+console.log("valor boleano de -1235:", Boolean(-1235));
+console.log("valor boleano de un objeto:", Boolean({saludo: "hola"}));
+console.log("valor boleano de un array:", Boolean(["platano", -1, false]));
+console.log("valor boleano de un array:", Boolean(function(){}));
+//Sin valor real es false:
+console.log("valor boleano de \"\":", Boolean("")  );
+console.log("valor boleano de 0:", Boolean(0));
+console.log("valor boleano de -0:", Boolean(-0));
+console.log("valor boleano de null:", Boolean(null));
+console.log("valor boleano de undefined:", Boolean(undefined));
+console.log("valor boleano de NaN:", Boolean(NaN));
