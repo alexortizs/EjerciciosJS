@@ -30,6 +30,7 @@ function porcentajeAlumnos(totalHombres, totalMujeres){
 
 porcentajeAlumnos(14,5);
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Ejemplo de Condicionales
 var ex1 = true && true; // true
 var ex2 = (2 == 2) && (3 >= 6); // false
@@ -48,6 +49,8 @@ condicionalAvanzado(ex2);
 condicionalAvanzado(ex3);
 condicionalAvanzado(ex4);
 =======
+=======
+>>>>>>> otrosdatos
 
 //Valor real es true:
 console.log("valor boleano de \"Fictizia\":", Boolean("Fictizia")  );
@@ -79,4 +82,7 @@ function revisarPorcentaje(Booleano,totalAlumnos, totalHombres){
 revisarPorcentaje(true, 20, 15);
 revisarPorcentaje(false, 20, 15);
 
+<<<<<<< HEAD
+>>>>>>> otrosdatos
+=======
 >>>>>>> otrosdatos
