@@ -29,6 +29,7 @@ function porcentajeAlumnos(totalHombres, totalMujeres){
 };
 
 porcentajeAlumnos(14,5);
+<<<<<<< HEAD
 // Ejemplo de Condicionales
 var ex1 = true && true; // true
 var ex2 = (2 == 2) && (3 >= 6); // false
@@ -46,3 +47,36 @@ condicionalAvanzado(ex1);
 condicionalAvanzado(ex2);
 condicionalAvanzado(ex3);
 condicionalAvanzado(ex4);
+=======
+
+//Valor real es true:
+console.log("valor boleano de \"Fictizia\":", Boolean("Fictizia")  );
+console.log("valor boleano de 1235:", Boolean(1235));
+console.log("valor boleano de -1235:", Boolean(-1235));
+console.log("valor boleano de un objeto:", Boolean({saludo: "hola"}));
+console.log("valor boleano de un array:", Boolean(["platano", -1, false]));
+console.log("valor boleano de un array:", Boolean(function(){}));
+//Sin valor real es false:
+console.log("valor boleano de \"\":", Boolean("")  );
+console.log("valor boleano de 0:", Boolean(0));
+console.log("valor boleano de -0:", Boolean(-0));
+console.log("valor boleano de null:", Boolean(null));
+console.log("valor boleano de undefined:", Boolean(undefined));
+console.log("valor boleano de NaN:", Boolean(NaN));
+
+function revisarPorcentaje(Booleano,totalAlumnos, totalHombres){
+    var porcentajeHombres = (totalHombres*100)/totalAlumnos;
+    if (Booleano) {
+        console.log("El total de es:", totalAlumnos);
+    }
+    else {
+
+        console.log("El porcentaje de hombres es:", porcentajeHombres);
+    }
+
+};
+
+revisarPorcentaje(true, 20, 15);
+revisarPorcentaje(false, 20, 15);
+
+>>>>>>> otrosdatos
