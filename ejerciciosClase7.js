@@ -29,3 +29,20 @@ function porcentajeAlumnos(totalHombres, totalMujeres){
 };
 
 porcentajeAlumnos(14,5);
+// Ejemplo de Condicionales
+var ex1 = true && true; // true
+var ex2 = (2 == 2) && (3 >= 6); // false
+var ex3 = (2>3) || (17 <= 40); // true
+var ex4 = false || false; // false
+
+function condicionalAvanzado ( paraComparar ) {
+    if (paraComparar) {
+        console.log("Verdadero!");
+    } else {
+        console.log("falso!");
+    };
+};
+condicionalAvanzado(ex1);
+condicionalAvanzado(ex2);
+condicionalAvanzado(ex3);
+condicionalAvanzado(ex4);
