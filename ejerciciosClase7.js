@@ -44,3 +44,19 @@ console.log("valor boleano de -0:", Boolean(-0));
 console.log("valor boleano de null:", Boolean(null));
 console.log("valor boleano de undefined:", Boolean(undefined));
 console.log("valor boleano de NaN:", Boolean(NaN));
+
+function revisarPorcentaje(Booleano,totalAlumnos, totalHombres){
+    var porcentajeHombres = (totalHombres*100)/totalAlumnos;
+    if (Booleano) {
+        console.log("El total de es:", totalAlumnos);
+    }
+    else {
+
+        console.log("El porcentaje de hombres es:", porcentajeHombres);
+    }
+
+};
+
+revisarPorcentaje(true, 20, 15);
+revisarPorcentaje(false, 20, 15);
+
